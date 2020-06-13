@@ -13,11 +13,11 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_NAME",		"Romania"			),
-	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION",	"Romanian Empire"	),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION",	"Romanian Empire"		),
 	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_ADJECTIVE",  	"Romanian"			),
 	
 	("pt_BR",	"LOC_CIVILIZATION_CVS_ROMANIA_NAME",		"Romênia"			),
-	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION",	"Império Romeno"	),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION",	"Império Romeno"		),
 	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_ADJECTIVE",  	"Romeno"			),
 	
 -----------------------------------------------
@@ -55,32 +55,32 @@ VALUES
 	("en_US",	"LOC_MODIFIER_CVS_ROMANIA_UU_HILLS_COMBAT",  "+{1_Amount} Combat on Hills"	),
 	
 	("pt_BR",	"LOC_UNIT_CVS_ROMANIA_UU_DESCRIPTION",	 
-	"Unidade de reconhecimento exclusiva da Romênia. Substitui Operações Especiais. Recebe [ICON_STRENGTH] Força de Combate adicional em morros e +50% de experiência por combate."	),
-	("pt_BR",	"LOC_MODIFIER_CVS_ROMANIA_UU_HILLS_COMBAT",  "+{1_Amount} de Combate em morros"	),
+	"Unidade de reconhecimento exclusiva da Romênia. Substitui Operações Especiais. Recebe [ICON_STRENGTH] Força de Combate adicional em colinas e +50% de experiência por combate."	),
+	("pt_BR",	"LOC_MODIFIER_CVS_ROMANIA_UU_HILLS_COMBAT",  "+{1_Amount} de Combate em colinas"	),
 
 -----------------------------------------------
 -- Mountains
 -----------------------------------------------
 
-	("en_US",	"LOC_NAMED_MOUNTAIN_ALMAJ",		 "Almăj Mountains"		),
-	("en_US",	"LOC_NAMED_MOUNTAIN_BIHOR",		 "Bihor Mountains"		),
-	("en_US",	"LOC_NAMED_MOUNTAIN_BUCEGI",	 "Bucegi Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_ALMAJ",	 "Almăj Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_BIHOR",	 "Bihor Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_BUCEGI",	 "Bucegi Mountains"	),
 	("en_US",	"LOC_NAMED_MOUNTAIN_FAGARAS",	 "Făgăraş Mountains"	),
 	("en_US",	"LOC_NAMED_MOUNTAIN_GODEANU",	 "Godeanu Mountains"	),
 	("en_US",	"LOC_NAMED_MOUNTAIN_RETEZAT",	 "Retezat Mountains"	),
 	("en_US",	"LOC_NAMED_MOUNTAIN_VRANCEA",	 "Vrancea Mountains"	),
 	("en_US",	"LOC_NAMED_MOUNTAIN_SUREANU",	 "Şureanu Mountains"	),
-	("en_US",	"LOC_NAMED_MOUNTAIN_TARCU",		 "Ţarcu Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_TARCU",	 "Ţarcu Mountains"	),
 	
-	("pt_BR",	"LOC_NAMED_MOUNTAIN_ALMAJ",		 "Montes Almăj"		),
-	("pt_BR",	"LOC_NAMED_MOUNTAIN_BIHOR",		 "Montes Bihor"		),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_ALMAJ",	 "Montes Almăj"		),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_BIHOR",	 "Montes Bihor"		),
 	("pt_BR",	"LOC_NAMED_MOUNTAIN_BUCEGI",	 "Montes Bucegi"	),
 	("pt_BR",	"LOC_NAMED_MOUNTAIN_FAGARAS",	 "Montes Făgăraş"	),
 	("pt_BR",	"LOC_NAMED_MOUNTAIN_GODEANU",	 "Montes Godeanu"	),
 	("pt_BR",	"LOC_NAMED_MOUNTAIN_RETEZAT",	 "Montes Retezat"	),
 	("pt_BR",	"LOC_NAMED_MOUNTAIN_VRANCEA",	 "Montes Vrancea"	),
 	("pt_BR",	"LOC_NAMED_MOUNTAIN_SUREANU",	 "Montes Şureanu"	),
-	("pt_BR",	"LOC_NAMED_MOUNTAIN_TARCU",		 "Montes Ţarcu"		),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_TARCU",	 "Montes Ţarcu"		),
 
 -----------------------------------------------
 -- Rivers
@@ -88,25 +88,25 @@ VALUES
 
 	("en_US",	"LOC_NAMED_RIVER_MURES",		"Mureș River"		),
 	("en_US",	"LOC_NAMED_RIVER_PRUT",			"Prut River"		),
-	("en_US",	"LOC_NAMED_RIVER_OLT",			"Olt River"			),
+	("en_US",	"LOC_NAMED_RIVER_OLT",			"Olt River"		),
 	("en_US",	"LOC_NAMED_RIVER_SIRET",		"Siret River"		),
 	("en_US",	"LOC_NAMED_RIVER_IALOMITA",		"Ialomița River"	),
 	("en_US",	"LOC_NAMED_RIVER_SOMES",		"Someș River"		),
 	("en_US",	"LOC_NAMED_RIVER_ARGES",		"Argeș River"		),
-	("en_US",	"LOC_NAMED_RIVER_JIU",			"Jiu River"			),
+	("en_US",	"LOC_NAMED_RIVER_JIU",			"Jiu River"		),
 	("en_US",	"LOC_NAMED_RIVER_BUZAU",		"Buzău River"		),
-	("en_US",	"LOC_NAMED_RIVER_DAMBOVITA",	"Dâmbovița River"	),
+	("en_US",	"LOC_NAMED_RIVER_DAMBOVITA",		"Dâmbovița River"	),
 	
 	("pt_BR",	"LOC_NAMED_RIVER_MURES",		"Rio Mureș"		),
 	("pt_BR",	"LOC_NAMED_RIVER_PRUT",			"Rio Prut"		),
 	("pt_BR",	"LOC_NAMED_RIVER_OLT",			"Rio Olt"		),
 	("pt_BR",	"LOC_NAMED_RIVER_SIRET",		"Rio Siret"		),
-	("pt_BR",	"LOC_NAMED_RIVER_IALOMITA",		"Rio Ialomița"	),
+	("pt_BR",	"LOC_NAMED_RIVER_IALOMITA",		"Rio Ialomița"		),
 	("pt_BR",	"LOC_NAMED_RIVER_SOMES",		"Rio Someș"		),
 	("pt_BR",	"LOC_NAMED_RIVER_ARGES",		"Rio Argeș"		),
 	("pt_BR",	"LOC_NAMED_RIVER_JIU",			"Rio Jiu"		),
 	("pt_BR",	"LOC_NAMED_RIVER_BUZAU",		"Rio Buzău"		),
-	("pt_BR",	"LOC_NAMED_RIVER_DAMBOVITA",	"Rio Dâmbovița"	),
+	("pt_BR",	"LOC_NAMED_RIVER_DAMBOVITA",		"Rio Dâmbovița"		),
 
 -----------------------------------------------
 -- Deserts
