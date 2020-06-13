@@ -1,6 +1,6 @@
 /*
 	Localisation
-	Authors: ChimpanG
+	Authors: ChimpanG, cachaco
 */
 
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
