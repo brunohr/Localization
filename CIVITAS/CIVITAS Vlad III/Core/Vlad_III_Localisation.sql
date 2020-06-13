@@ -165,7 +165,7 @@ VALUES
 	("en_US",	"LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_VLAD_III_ANY",
 	"I would like to offer you a delegation from my capital, carrying with it simple gifts of Plums, Frgál, and brandy. I trust you will accept them."	),
 	("pt_BR",	"LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Eu gostaria de lhe oferecer uma delegacia da minha capitl, com ela simples presentes de ameixas, Frgál, e conhaque. Eu o confio que você os aceitará."	),
+	"Eu gostaria de lhe oferecer uma delegação da minha capital, junto com singelos presentes como ameixas, Frgál, e conhaque. Eu acredito que você os aceitará."	),
 	
 	
 -----------------------------------------------
