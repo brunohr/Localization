@@ -205,17 +205,19 @@ VALUES
 	("en_US",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
 	"Do not presume I am so easily won over."	),
 	("pt_BR",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Não presuma que eu serei facilmente vencido."	),
+	"Não presuma que eu me darei por vencido tão facilmente."	),
 	
 	-- AI Requests friendship from human (ANY)	
 	("en_US",	"LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
 	"The world is harsh, and many in our lands know this truth. It would be an honour for one as trusted as you to stand by my side as friend of Wallachia and its people."	),
+	("pt_BR",	"LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
+	"O mundo é cruel, e muitos nas nossas terras sabem disso. Seria uma honra para alguém tão confiável como você estar ao meu lado como amigo da Valáquia e seu povo."	),
 	
 	-- Human accepts AI requests, AI responds (ANY)	
 	("en_US",	"LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
 	"Thank you for agreeing. May this friendship last through the era and beyond."	),
 	("pt_BR",	"LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Obrigado por aceitar. Que esta amizade dure desta era ao além."	),
+	"Obrigado por aceitar. Que esta amizade por eras."	),
 	
 	-- Human rejects AI requests, AI responds (ANY)	
 	("en_US",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
