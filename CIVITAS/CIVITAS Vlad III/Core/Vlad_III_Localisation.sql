@@ -1,473 +1,299 @@
 /*
 	Localisation
-	Authors: ChimpanG,, Digihuman, SeelingCat, cachaco
+	Authors: ChimpanG, SeelingCat, cachaco
 */
 
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
 VALUES
 
 -----------------------------------------------
--- Leader
------------------------------------------------	
+-- Civilization
+-----------------------------------------------
+
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_NAME",		"Romania"			),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION",	"Romanian Empire"	),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_ADJECTIVE",  	"Romanian"			),
 	
-	("en_US",	"LOC_LEADER_CVS_VLAD_III_NAME",  "Vlad III"	),
+	("pt_BR",	"LOC_CIVILIZATION_CVS_ROMANIA_NAME",		"Romênia"			),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION",	"Império Romeno"	),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_ADJECTIVE",  	"Romeno"			),
 	
 -----------------------------------------------
 -- UA
------------------------------------------------	
+-----------------------------------------------
 
-	("en_US",	"LOC_TRAIT_LEADER_CVS_VLAD_III_UA_NAME",  "House of Drăculești"	),
-	("en_US",	"LOC_TRAIT_LEADER_CVS_VLAD_III_UA_DESCRIPTION",
-	"Capturing an enemy City has a chance of causing another to revolt to a Free City on the next turn. Pillaging in enemy territory deals damage to adjacent enemy units. Gains access to the Călărași unique unit."	),
+	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_ROMANIA_UA_NAME",		"Deșteaptă-te Române"	),
+	("en_US",	"LOC_TRAIT_CIVILIZATION_CVS_ROMANIA_UA_DESCRIPTION",	
+	"Receive +100% Flanking and Support bonuses during an Emergency, and successful Emergencies award a free Technology and Civic. Base [ICON_PRODUCTION] Production yields of Encampment buildings are doubled when at war with another civilization."	),
+	("pt_BR",	"LOC_TRAIT_CIVILIZATION_CVS_ROMANIA_UA_DESCRIPTION",	
+	"Recebe +100% de bônus de Flanco e Suporte durante uma Emergência, e Emergências bem-sucedidadas te recompesam com uma Tecnologia e um Cívico grátis. [ICON_PRODUCTION] Produção base de edificações de Acampamento são dobrados quando em guerra contra outra civilização."	),
+
+-----------------------------------------------
+-- UI
+-----------------------------------------------
+
+	("en_US",	"LOC_BUILDING_CVS_ROMANIA_UI_NAME",		"Fortăreață"	),
+	("en_US",	"LOC_BUILDING_CVS_ROMANIA_UI_DESCRIPTION",
+	"A standalone Encampment building unique to Romania. Unlocked with the Castles technology. +2 [ICON_PRODUCTION] Production and +1 [ICON_FAVOR] Diplomatic Favor per turn. Receives +2 Slots for any type of Great Work, which are themed when filled with Great Works of the same type."	),
+	("en_US",	"LOC_BUILDING_CVS_ROMANIA_UI_THEMINGBONUS",		"Theming bonus doubling output when Fortăreață is full."	),
 	
-	("pt_BR",	"LOC_TRAIT_LEADER_CVS_VLAD_III_UA_NAME",  "Casa dos Drăculești"	),
-	("pt_BR",	"LOC_TRAIT_LEADER_CVS_VLAD_III_UA_DESCRIPTION",
-	"Capturar uma Cidade inimiga causa a chance de outra se revoltar para uma Cidade Livre no próximo turno. Saquear em território inimigo causa dano a unidades inimigas adjacentes. Ganha acesso à unidade exclusiva Călărași."	),
+	("pt_BR",	"LOC_BUILDING_CVS_ROMANIA_UI_DESCRIPTION",
+	"Edificação única de Acampamento exclusiva da Romênia. Desbloqueada com a tecnologia Castelos. +2 de [ICON_PRODUCTION] Produção e +1 de [ICON_FAVOR] Favor Diplomatico por turno. Recebe +2 espaços para qualquer Grande Obra, que serão temáticas da mesma forma da Grande Obra que foi colocada."	),
+	("pt_BR",	"LOC_BUILDING_CVS_ROMANIA_UI_THEMINGBONUS",		"Theming bonus doubling output when Fortăreață is full."	),
+
 
 -----------------------------------------------
 -- UU
 -----------------------------------------------
 
-	("en_US",	"LOC_UNIT_CVS_VLAD_III_UU_NAME",	"Călăraşi"	),
-	("en_US",	"LOC_UNIT_CVS_VLAD_III_UU_DESCRIPTION",	 
-	"A ranged cavalry unit unique to Romania. Weaker than the Crossbowman it replaces but has +2 [ICON_MOVEMENT] Movement and requires only 1 [ICON_MOVEMENT] Movement to pillage."	),
+	("en_US",	"LOC_UNIT_CVS_ROMANIA_UU_NAME",	"Vânători"	),
 	
-	("pt_BR",	"LOC_UNIT_CVS_VLAD_III_UU_NAME",	"Călăraşi"	),
-	("pt_BR",	"LOC_UNIT_CVS_VLAD_III_UU_DESCRIPTION",	 
-	"Uma unidade cavalaria à distancia exclusiva da Romênia. Mais fraco que o Besteiro que substitui mas ganha +2 de [ICON_MOVEMENT] Movemento e requer apenas 1 de [ICON_MOVEMENT] Movemento para saquear."	),
+	("en_US",	"LOC_UNIT_CVS_ROMANIA_UU_DESCRIPTION",	 
+	"A recon unit unique to Romania. Replaces Spec Ops. Receives additional [ICON_STRENGTH] Combat Strength on Hill terrain and +50% experience from combat."	),
+	("en_US",	"LOC_MODIFIER_CVS_ROMANIA_UU_HILLS_COMBAT",  "+{1_Amount} Combat on Hills"	),
+	
+	("pt_BR",	"LOC_UNIT_CVS_ROMANIA_UU_DESCRIPTION",	 
+	"Unidade de reconhecimento exclusiva da Romênia. Substitui Operações Especiais. Recebe [ICON_STRENGTH] Força de Combate adicional em colinas e +50% de experiência por combate."	),
+	("pt_BR",	"LOC_MODIFIER_CVS_ROMANIA_UU_HILLS_COMBAT",  "+{1_Amount} de Combate em colinas"	),
 
 -----------------------------------------------
--- Agenda
------------------------------------------------	
+-- Mountains
+-----------------------------------------------
 
-	("en_US",	"LOC_AGENDA_CVS_VLAD_III_NAME",	"Scorched Earth"	),
-	("en_US",	"LOC_AGENDA_CVS_VLAD_III_DESCRIPTION",		"Will join wars and pillage wherever possible and respects those that do the same. Views neighboring civilizations with a small military as opportunities for conquest."	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_ALMAJ",		 "Almăj Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_BIHOR",		 "Bihor Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_BUCEGI",	 "Bucegi Mountains"		),
+	("en_US",	"LOC_NAMED_MOUNTAIN_FAGARAS",	 "Făgăraş Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_GODEANU",	 "Godeanu Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_RETEZAT",	 "Retezat Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_VRANCEA",	 "Vrancea Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_SUREANU",	 "Şureanu Mountains"	),
+	("en_US",	"LOC_NAMED_MOUNTAIN_TARCU",		 "Ţarcu Mountains"		),
 	
-	("pt_BR",	"LOC_AGENDA_CVS_VLAD_III_NAME",	"Terra Arrasada"	),
-	("pt_BR",	"LOC_AGENDA_CVS_VLAD_III_DESCRIPTION",		"Participará de guerras e saqueará onde for possível, e respeita aqueles que fazem o mesmo. Vê civilizações vizinhas com poucos militares como oportunidades para conquista."	),
-	
-	("en_US",	"LOC_DIPLO_KUDO_LEADER_CVS_VLAD_III_REASON_ANY",	"(You have pillaged a high number of tiles.)"	),
-	("en_US",	"LOC_DIPLO_MODIFIER_CVS_VLAD_III_HAPPY",	"Vlad III respects your pillaging tactics"	),
-	
-	("pt_BR",	"LOC_DIPLO_KUDO_LEADER_CVS_VLAD_III_REASON_ANY",	"(Você saqueou uma grande quantidade de painéis.)"	),
-	("pt_BR",	"LOC_DIPLO_MODIFIER_CVS_VLAD_III_HAPPY",	"Vlad III respeita suas tátitas de saque"	),
-	
-	("en_US",	"LOC_DIPLO_WARNING_LEADER_CVS_VLAD_III_REASON_ANY",	"(You are neighbors and have a weak army.)"	),
-	("en_US",	"LOC_DIPLO_MODIFIER_CVS_VLAD_III_UNHAPPY",	"Vlad III sees your weak military as an opportunity for conquest"	),
-	
-	("pt_BR",	"LOC_DIPLO_WARNING_LEADER_CVS_VLAD_III_REASON_ANY",	"(Vocês são vizinhos e você tem um exércio fraco.)"	),
-	("pt_BR",	"LOC_DIPLO_MODIFIER_CVS_VLAD_III_UNHAPPY",	"Vlad III vê seu fraco exército como uma oportunidade de conquista"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_ALMAJ",		 "Montes Almăj"		),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_BIHOR",		 "Montes Bihor"		),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_BUCEGI",	 "Montes Bucegi"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_FAGARAS",	 "Montes Făgăraş"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_GODEANU",	 "Montes Godeanu"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_RETEZAT",	 "Montes Retezat"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_VRANCEA",	 "Montes Vrancea"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_SUREANU",	 "Montes Şureanu"	),
+	("pt_BR",	"LOC_NAMED_MOUNTAIN_TARCU",		 "Montes Ţarcu"		),
 
---------------------------------------------------------------------
+-----------------------------------------------
+-- Rivers
+-----------------------------------------------
+
+	("en_US",	"LOC_NAMED_RIVER_MURES",		"Mureș River"		),
+	("en_US",	"LOC_NAMED_RIVER_PRUT",			"Prut River"		),
+	("en_US",	"LOC_NAMED_RIVER_OLT",			"Olt River"			),
+	("en_US",	"LOC_NAMED_RIVER_SIRET",		"Siret River"		),
+	("en_US",	"LOC_NAMED_RIVER_IALOMITA",		"Ialomița River"	),
+	("en_US",	"LOC_NAMED_RIVER_SOMES",		"Someș River"		),
+	("en_US",	"LOC_NAMED_RIVER_ARGES",		"Argeș River"		),
+	("en_US",	"LOC_NAMED_RIVER_JIU",			"Jiu River"			),
+	("en_US",	"LOC_NAMED_RIVER_BUZAU",		"Buzău River"		),
+	("en_US",	"LOC_NAMED_RIVER_DAMBOVITA",	"Dâmbovița River"	),
+	
+	("pt_BR",	"LOC_NAMED_RIVER_MURES",		"Rio Mureș"		),
+	("pt_BR",	"LOC_NAMED_RIVER_PRUT",			"Rio Prut"		),
+	("pt_BR",	"LOC_NAMED_RIVER_OLT",			"Rio Olt"		),
+	("pt_BR",	"LOC_NAMED_RIVER_SIRET",		"Rio Siret"		),
+	("pt_BR",	"LOC_NAMED_RIVER_IALOMITA",		"Rio Ialomița"	),
+	("pt_BR",	"LOC_NAMED_RIVER_SOMES",		"Rio Someș"		),
+	("pt_BR",	"LOC_NAMED_RIVER_ARGES",		"Rio Argeș"		),
+	("pt_BR",	"LOC_NAMED_RIVER_JIU",			"Rio Jiu"		),
+	("pt_BR",	"LOC_NAMED_RIVER_BUZAU",		"Rio Buzău"		),
+	("pt_BR",	"LOC_NAMED_RIVER_DAMBOVITA",	"Rio Dâmbovița"	),
+
+-----------------------------------------------
+-- Volcanoes
+-----------------------------------------------
+
+	("en_US",	"LOC_NAMED_DESERT_OLTENIA",		"Oltenia Sahara"	),
+	("pt_BR",	"LOC_NAMED_DESERT_OLTENIA",		"Saara da Oltênia"	),
+
+-----------------------------------------------
+-- Volcanoes
+-----------------------------------------------
+
+	("en_US",	"LOC_NAMED_VOLCANO_CIOMADUL",	"Ciomadul"			),
+
+-----------------------------------------------
 -- Cities
---------------------------------------------------------------------
+-----------------------------------------------
 
-	("en_US",	"LOC_CITY_NAME_TARGOVISTE",			"Târgoviște"		),
-	("en_US",	"LOC_CITY_NAME_BUCHAREST",			"Bucharest"			),
-	("pt_BR",	"LOC_CITY_NAME_BUCHAREST",			"Bucareste"			),
-	("en_US",	"LOC_CITY_NAME_ARGES",				"Argeș"				),
-	("en_US",	"LOC_CITY_NAME_BRAILA",				"Brăila"			),
-	("en_US",	"LOC_CITY_NAME_CRAIOVA",			"Craiova"			),
-	("en_US",	"LOC_CITY_NAME_PLOESTI",			"Ploești"			),
-	("en_US",	"LOC_CITY_NAME_RAMNICU_VALCEA",		"Râmnicu Vâlcea"	),
-	("en_US",	"LOC_CITY_NAME_CAMPULUNG",			"Câmpulung"			),
-	("en_US",	"LOC_CITY_NAME_BRAN",				"Bran"				),
-	("en_US",	"LOC_CITY_NAME_GIURGIU",			"Giurgiu"			),
-	("en_US",	"LOC_CITY_NAME_RAMNICU_SARAT",		"Râmnicu Sărat"		),
-	("en_US",	"LOC_CITY_NAME_BUZAU",				"Buzău"				),
-	("en_US",	"LOC_CITY_NAME_TURNU",				"Turnu"				),
-	("en_US",	"LOC_CITY_NAME_TARGU_JIU",			"Târgu Jiu"			),
-	("en_US",	"LOC_CITY_NAME_CORABIA",			"Corabia"			),
-	("en_US",	"LOC_CITY_NAME_POENARI",			"Poenari"			),
-	("en_US",	"LOC_CITY_NAME_SEVERIN",			"Severin"			),
-	("en_US",	"LOC_CITY_NAME_ORASUL_DE_FLOCI",	"Orașul de Floci"	),
-	("en_US",	"LOC_CITY_NAME_SLATINA",			"Slatina"			),
-	("en_US",	"LOC_CITY_NAME_RUSII_DE_VEDE",		"Rușii de Vede"		),
-	("en_US",	"LOC_CITY_NAME_BREZOI",				"Brezoi"			),
-	("en_US",	"LOC_CITY_NAME_CARACAL",			"Caracal"			),
-	("en_US",	"LOC_CITY_NAME_PITESTI",			"Pitești"			),
-	("en_US",	"LOC_CITY_NAME_BAIA_DE_ARAMA",		"Baia de Aramă"		),
-	
+	("en_US",	"LOC_CITY_NAME_BUCHAREST",  "Bucharest"),
+	("pt_BR",	"LOC_CITY_NAME_BUCHAREST",  "Bucareste"),
+	("en_US",	"LOC_CITY_NAME_IASI",  "Iași"),
+	("en_US",	"LOC_CITY_NAME_SUCEAVA",  "Suceava"),
+	("en_US",	"LOC_CITY_NAME_TARGOVISTE",  "Târgoviște"),
+	("en_US",	"LOC_CITY_NAME_CONSTANTA",  "Constanța"),
+	("en_US",	"LOC_CITY_NAME_CLUJ_NAPOCA",  "Cluj-Napoca"),
+	("en_US",	"LOC_CITY_NAME_ARGES",  "Argeș"),
+	("en_US",	"LOC_CITY_NAME_TIMISOARA",  "Timișoara"),
+	("en_US",	"LOC_CITY_NAME_ALBA_IULIA",  "Alba Iulia"),
+	("en_US",	"LOC_CITY_NAME_ORADEA",  "Oradea"),
+	("en_US",	"LOC_CITY_NAME_CRAIOVA",  "Craiova"),
+	("en_US",	"LOC_CITY_NAME_BRAILA",  "Brăila"),
+	("en_US",	"LOC_CITY_NAME_GALATI",  "Galați"),
+	("en_US",	"LOC_CITY_NAME_TIGHINA",  "Tighina"),
+	("en_US",	"LOC_CITY_NAME_ARAD",  "Arad"),
+	("en_US",	"LOC_CITY_NAME_TARGU_MURES",  "Târgu Mureș"),
+	("en_US",	"LOC_CITY_NAME_BRASOV",  "Brașov"),
+	("en_US",	"LOC_CITY_NAME_SATU_MARE",  "Satu Mare"),
+	("en_US",	"LOC_CITY_NAME_SEVERIN",  "Severin"),
+	("en_US",	"LOC_CITY_NAME_SIBIU",  "Sibiu"),
+	("en_US",	"LOC_CITY_NAME_BISTRITA",  "Bistrița"),
+	("en_US",	"LOC_CITY_NAME_DEVA",  "Deva"),
+	("en_US",	"LOC_CITY_NAME_PLOESTI",  "Ploești"),
+	("en_US",	"LOC_CITY_NAME_GIURGIU",  "Giurgiu"),
+	("en_US",	"LOC_CITY_NAME_PITESTI",  "Pitești"),
+	("en_US",	"LOC_CITY_NAME_SFANTU_GHEORGHE",  "Sfântu Gheorghe"),
+	("en_US",	"LOC_CITY_NAME_TURDA",  "Turda"),
+	("en_US",	"LOC_CITY_NAME_BAIA_MARE",  "Baia Mare"),
+	("en_US",	"LOC_CITY_NAME_SLATINA",  "Slatina"),
+	("en_US",	"LOC_CITY_NAME_CAMPULUNG",  "Câmpulung"),
+	("en_US",	"LOC_CITY_NAME_BUZAU",  "Buzău"),
+	("en_US",	"LOC_CITY_NAME_LUGOJ",  "Lugoj"),
 	
 -----------------------------------------------
--- DOM
------------------------------------------------	
-
-	("en_US",	"LOC_LOADING_INFO_LEADER_CVS_VLAD_III",
-	"Your reputation precedes you, Vlad Țepeș, fearsome Voivode of Wallachia. While the shadows of stricken foes dance upon the scorched earth beneath the pikes, the long night awaits those who dare cross you. Lead your Călăraşi head first into the darkness, induce panic, and show the world just how fragile loyalty can be as word of your cruel victories reaches those in your path."  	),
-
-	("pt_BR",	"LOC_LOADING_INFO_LEADER_CVS_VLAD_III",
-	"Sua reputação te precede, Vlad Țepeș, temido Voivode da Valáquia. Enquanto as sombras dos inimigos atingidos dançam na terra arrasada abaixo das lanças, a longa noite aguarda aqueles que ousam te cruzar. Lidere seus Călăraşi de cara na escuridão, induza o pânico, e mostre ao mundo o quão frágil a lealdade pode ser, conforme palavras de suas cruéis vitórias alcançam aqueles em seu caminho."  	),
-
+-- Citizens
 -----------------------------------------------
--- Diplos | First Meet
------------------------------------------------	
-
-	-- First AI Line (ANY)
-	("en_US",	"LOC_DIPLO_FIRST_MEET_LEADER_CVS_VLAD_III_ANY",
-	"Halt, stranger. Know that you stand in the court House Drăculești. I am Vlad, son of the dragon, Prince to Wallachia. What I am to you entirely depends on how you conduct yourself." ),
-	("pt_BR",	"LOC_DIPLO_FIRST_MEET_LEADER_CVS_VLAD_III_ANY",
-	"Parado, estranho. Saiba que você está diante da corte da Casa dos Drăculești. Eu sou Vlad, filho do dragão, Príncipe da Valáquia. O que sou para você depende totalmente de como você se conduz." ),
 	
-	-- AI invitation to visit nearby City (ANY)
-	("en_US",	"LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CVS_VLAD_III_ANY",
-	"I extend an invitation to you representatives to visit my court, if you wish to see magnificence. It isn't far from here."	),
-	("pt_BR",	"LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CVS_VLAD_III_ANY",
-	"Eu extendo um convite para que seus representantes visitem minha corte, se você deseja ver magnificência. Não é longe daqui."	),
-	
-	-- AI accepts human invitation (ANY)
-	("en_US",	"LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CVS_VLAD_III_ANY",
-	"I am glad to hear it."	),
-	("pt_BR",	"LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CVS_VLAD_III_ANY",
-	"Fico feliz em ouvir isso."	),
-	
-	-- AI invitation to exchange Capital Information (ANY)
-	("en_US",	"LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CVS_VLAD_III_ANY",
-	"If we are to stand on good terms, we ought to exchange information on our capitals in which to conduct our meetings, wouldn't you agree?"	),
-	("pt_BR",	"LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_CVS_VLAD_III_ANY",
-	"Se vamos ficar em bons termos, devemos trocar informações sobre nossas capitais onde conduziremos nossas reuniões, não concorda?"	),
-
------------------------------------------------
--- Diplos | Greetings
------------------------------------------------	
-
-	-- (HAPPY)
-	("en_US",	"LOC_DIPLO_GREETING_LEADER_CVS_VLAD_III_HAPPY",
-	"It has been too long. Have you business with me?"	),
-	
-	("pt_BR",	"LOC_DIPLO_GREETING_LEADER_CVS_VLAD_III_HAPPY",
-	"Há quanto tempo. Você tem negócios comigo?"	),
-
-	-- (UNHAPPY)
-	("en_US",	"LOC_DIPLO_GREETING_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Speak."	),
-	
-	("pt_BR",	"LOC_DIPLO_GREETING_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Fale."	),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_1",		"Atanase"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_2",		"Avram"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_3",		"Benedikte"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_4",		"Dumitru"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_5",		"Florin"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_6",		"Gheorghe"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_7",		"Mihas"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_8",		"Radut"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_9",		"Serghei"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_MALE_10",		"Zaharia"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_1",		"Antanasia"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_2",		"Daciana"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_3",		"Fiora"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_4",		"Ihrin"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_5",		"Ioana"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_6",		"Lerae"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_7",		"Maricara"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_8",		"Nicoleta"		),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_9",		"Odeta"			),
+	("en_US",	"LOC_CITIZEN_CVS_ROMANIA_FEMALE_10",	"Yedda"			),
 	
 -----------------------------------------------
--- Diplos | Delegation
------------------------------------------------	
-
-	-- AI Accepts (ANY)
-	("en_US",	"LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Your delegation is welcome into my lands, and shall be granted the utmost respect - so long as they conduct themselves properly."	),
-	("pt_BR",	"LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Sua delegação é bem vinda nas minhas terras, e receberá o devido respeito - ao tanto que os for devido."	),
-	
-	-- AI Rejects (ANY)
-	("en_US",	"LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"That would be ill-advised at this time. For the good of Wallachia, I cannot accept."	),
-	("pt_BR",	"LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Isso seria imprudente agora. Pelo bem da Valáquia, não posso aceitar."	),
-	
-	-- AI Requests (ANY)
-	("en_US",	"LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"I would like to offer you a delegation from my capital, carrying with it simple gifts of Plums, Frgál, and brandy. I trust you will accept them."	),
-	("pt_BR",	"LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Eu gostaria de lhe oferecer uma delegação da minha capital, junto com singelos presentes como ameixas, Frgál, e conhaque. Eu acredito que você os aceitará."	),
-	
-	
+-- Info
 -----------------------------------------------
--- Diplos | Open Borders
------------------------------------------------	
 
-	-- AI accepts from human (ANY)	
-	("en_US",	"LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"You pose no threat to my people or rule, so I shall grant this request."	),
-	("pt_BR",	"LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Você não apresenta ameaça para meu povo ou governo, então te garanto este pedido."	),
-	
-	-- AI rejects from human (ANY)	
-	("en_US",	"LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Wallachia shall not bid welcome to outsiders."	),
-	("pt_BR",	"LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Valáquia não dá boas-vindas para forasteiros."	),
-	
-	-- AI requests from human (ANY)	
-	("en_US",	"LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"I see little gain in our borders remaining closed to one another. Allow my troops to pass unimpeded through your lands, and you shall have my thanks."	),
-	("pt_BR",	"LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Eu vejo pouco benefício em nossas fronteiras fechadas para o outro. Permita que minhas tropas passem sem impedimentos por suas terras, e você terá meu agradecimento."	),
-	
-	
------------------------------------------------
--- Diplos | Declare Friendship
------------------------------------------------	
-
-	-- AI accepts from human (ANY)
-	("en_US",	"LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Indeed, you are a proven and trustworthy friend to my kingdom. I stand by you, pikes at the ready."	),
-	("pt_BR",	"LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Claro, você é um amigo comprovado e confiável para meu reinado. Eu estou do seu lado, lanças ao pronto."	),
-	
-	-- AI rejects from human (ANY)	
-	("en_US",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Do not presume I am so easily won over."	),
-	("pt_BR",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Não presuma que eu me darei por vencido tão facilmente."	),
-	
-	-- AI Requests friendship from human (ANY)	
-	("en_US",	"LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"The world is harsh, and many in our lands know this truth. It would be an honour for one as trusted as you to stand by my side as friend of Wallachia and its people."	),
-	("pt_BR",	"LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"O mundo é cruel, e muitos nas nossas terras sabem disso. Seria uma honra para alguém tão confiável como você estar ao meu lado como amigo da Valáquia e seu povo."	),
-	
-	-- Human accepts AI requests, AI responds (ANY)	
-	("en_US",	"LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Thank you for agreeing. May this friendship last through the era and beyond."	),
-	("pt_BR",	"LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Obrigado por aceitar. Que esta amizade por eras."	),
-	
-	-- Human rejects AI requests, AI responds (ANY)	
-	("en_US",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Disappointing."	),
-	("pt_BR",	"LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Decepcionante."	),
+	("en_US",	"LOC_CIVINFO_CVS_ROMANIA_LOCATION",		"Eastern Europe"	),
+	("pt_BR",	"LOC_CIVINFO_CVS_ROMANIA_LOCATION",		"Europa Oriental"	),
+	("en_US",	"LOC_CIVINFO_CVS_ROMANIA_SIZE",			"238,397 km²"		),
+	("en_US",	"LOC_CIVINFO_CVS_ROMANIA_POPULATION",	"c. 19.7 million"	),
+	("pt_BR",	"LOC_CIVINFO_CVS_ROMANIA_POPULATION",	"aprox. 19.7 million"	),
+	("en_US",	"LOC_CIVINFO_CVS_ROMANIA_CAPITAL",		"Bucharest"			),
+	("pt_BR",	"LOC_CIVINFO_CVS_ROMANIA_CAPITAL",		"Bucareste"			),
 
 -----------------------------------------------
--- Diplos | Alliance
------------------------------------------------	
+-- Pedia
+-----------------------------------------------
 
-	-- AI Requests an alliance from human (ANY)
-	("en_US",	"LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"We have long found agreement in our affairs. Let us show the world that the blood between our nations runs thicker than most, with an alliance to strengthen ourselves against all foes. What do you say?"	),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_1",		
+	"The name ‘Romania’ didn’t refer to Wallachia or Moldavia until 1859, and Transylvania remained part of the Astro-Hungarian empire until 1918. Yet, throughout its marked history, the people that reside in the region we call ‘Romania’ today are united by a common history of rising up to defend themselves."),	
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_2",		
+	"During the Antiquity Period, ancient Romania was inhabited by Thracian tribes. The Greeks called them the Getae, the Romans called them Dacians, but they were a single Geto-Dacian people.  From the 7th century BCE, the Greeks established trading colonies along the Black Sea at Callatis (Mangalia), Tomis (Constanţa) and Histria. In the 1st century BC, a strong Dacian state was established by King Burebista to counter the Roman threat. The last Dacian king, Decebal (r AD 87–106), consolidated this state but was unable to stave off attacks led by the Roman emperor Trajan in 101–2. Further attacks ensued in 105–6, leading to the Roman victory at the Dacian capital of Sarmizegetusa and the final Roman conquest of the region. Dacia thus became a province of the Roman Empire."),	
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_3",	
+	"The Romans recorded their expansion north of the Danube on two famous monuments: Trajan’s Column in Rome, and the ‘Tropaeum Trajani’ at Adamclisi, on the site of their victory in Dobrogea. Most of present Romania, including the Transylvanian plateau, came under their rule. The slave-owning Romans brought with them a superior civilisation and mixed with the conquered tribes to form a Daco-Roman people speaking Latin. Faced with Goth attacks in AD 271, Emperor Aurelian (r 270–75) decided to withdraw the Roman legions south of the Danube after Rome had governed the region for just under 175 years."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_4",	
+	"By the Middle Ages, waves of migrating peoples, including the Goths, Huns, Avars, Slavs, Bulgars and Magyars (Hungarians), swept across this territory, each leaving their mark on the local culture, language and gene pool. Romanians survived in village communities and gradually assimilated the Slavs and other peoples who settled there, but by the 10th century, a fragmented feudal system ruled by a military class appeared."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_5",	
+	"From the 10th century the Magyars expanded into Transylvania, north and west of the Carpathian Mountains, and by the 13th century all of Transylvania was an autonomous principality under the Hungarian crown. Following devastating Tartar raids on Transylvania in 1241 and 1242, King Bela IV of Hungary persuaded German Saxons to settle in Transylvania with free land and tax incentives. He wanted to defend the crown’s southeastern flank. He also granted the Székelys – a Hungarian ethnic group who had earlier migrated to the region with the Magyars – autonomy in return for their military support."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_6",	
+	"In the 14th century, Prince Basarab I (r 1310–52) united various political formations in the region south of the Carpathians to create the first Romanian principality – Wallachia, dubbed Ţara Românească (Romanian Land). Its indigenous peasantry became known as Vlachs."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_7",	
+	"Peasants dominated the populations of these medieval principalities. In Wallachia and Moldavia peasants were subjugated as serfs to the landed aristocracy (boyars), a hereditary class. There were some free, land-owning peasants (moşneni) too. The two principalities were ruled by a prince who was also the military leader. Most noblemen were Hungarian; the peasants were Romanians. After a 1437 peasant uprising in Transylvania, Magyar nobles formed a political alliance with the Székely and Saxon leaders. This Union of the Three Nations would later become the constitutional basis for government in Transylvania in the 16th century, but they would need to resist a powerful enemy in the East to reach that point."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_8",	
+	"Throughout the 14th and 15th centuries, Wallachia and Moldavia offered strong resistance to the Ottoman Empire’s northward expansion. Mircea cel Bătrân (Mircea the Old; r 1386–1418), Vlad Ţepeş (‘The Impaler’; r 1448, 1456–62, 1476), and Ştefan cel Mare (Stephen the Great; r 1457–1504) were legendary figures in this struggle. When the Turks conquered Hungary in the 16th century, Transylvania became a vassal of the Ottoman Empire, retaining its autonomy by paying tribute to the sultan. Catholicism and Protestantism were recognised as official state religions while the Orthodox faith of many Romanians remained an unofficial religion. Later, attempts were made to force them to convert to Catholicism."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_9",	
+	"After the Ottoman victory in Transylvania, Wallachia and Moldavia also paid tribute to the Turks but maintained their autonomy. In 1600 Wallachia and Moldavia were briefly united with Transylvania under Mihai Viteazul (Michael the Brave; r 1593–1601) at Alba Iulia. In order to fight Ottoman rule, he joined forces in 1594 with the ruling princes of Moldavia and Transylvania against the Turks, attacking strongholds and massacring Turks. In 1595 the Turks called a truce with Viteazul."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_10",	
+	"The Transylvanian prince, Andrew Báthory, subsequently turned against the Wallachian prince and, on 28 October 1599, Mihai Viteazul defeated and killed Báthory’s troops near Sibiu. Viteazul declared himself the new prince of Transylvania, then in spring 1600 invaded Moldavia, where he was also crowned prince. This first political union of the three Romanian principalities lasted for slightly more than a year: Viteazul was defeated by a joint Habsburg-Transylvanian noble army just months later and in August 1601 he was captured and beheaded."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_11",	
+	"In 1683 the Turks were defeated at the gates of Vienna and in 1687 Transylvania came under Habsburg rule. The 18th century marked the start of Transylvanian Romanians’ fight for political emancipation. Romanian peasants constituted 60% of the population, yet continued to be excluded from political life. In 1784 three serfs called Horea, Cloşca and Crişan led a major uprising. It was quashed, and its leaders were crushed to death, but on 22 August 1785 the Habsburg emperor, Joseph II, abolished serfdom in Transylvania."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_12",	
+	"The 17th century in Wallachia was marked by the lengthy reign of Constantin Brâncoveanu (r 1688-1714), a period of relative peace and prosperity characterised by a great cultural and artistic renaissance. In 1775 part of Moldavia’s northern territory – Bucovina – was annexed by Austria-Hungary. This was followed in 1812 by the loss of its eastern territory – Bessarabia (most of which is in present-day Moldova) – to Russia. After the Russo-Turkish War of 1828-9, Wallachia and Moldavia became Russian protectorates while remaining in the Ottoman Empire."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_13",	
+	"In Transylvania the revolutionary spirit that gripped much of Europe in the years leading up to 1848 was entangled with the Wallachian revolution, which in Transylvania was led by Hungarian poet Sándor Petőfi. Hungarian revolutionaries sought an end to Habsburg domination of Hungary. Concurrently, Romanian revolutionaries demanded their political emancipation, equality and the abolition of serfdom, singing 'Deșteaptă-te române' meaning 'awaken, Romanian' - a message of liberty and patriotism that would go on to become the revolutionary national anthem of Romania."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_14",	
+	"The Austrian authorities struck a deal with Transylvania’s Romanians, promising them national recognition in return for joining forces with them against the Hungarian revolutionaries in Transylvania. Thus, Transylvanian Romanians fought against and enacted revenge upon Transylvanian Hungarians for what was perceived as centuries of mistreatment. Russian intervention finally quashed the Hungarian revolutionaries, ending a revolution that had shocked all sides by its escalation to civil war."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_15",	
+	"In its aftermath, the region fell under direct rule of Austria-Hungary from Budapest. Ruthless ‘Magyarisation’ followed: Hungarian was established as the official language and any Romanians who dared oppose the regime. By contrast Wallachia and Moldavia prospered. In 1859, with French support, Alexandru Ioan Cuza was elected to the thrones of Moldavia and Wallachia, creating a national state known as the United Romanian Principalities on 11 December 1861, and thus, in 1862, Romania was born."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_16",	
+	"The reform-minded Cuza was forced to abdicate in 1866 by mutinous army officers, and his place was taken by the Prussian prince Carol I. With Russian assistance, Romania declared independence from the Ottoman Empire in 1877. After the 1877–8 War of Independence, Dobrogea became part of Romania. Under the consequent Treaty of San Stefano and the Congress of Berlin in 1878, Romanian independence was recognised. In 1881 it was declared a kingdom and on 22 May 1881 Carol I was crowned the first king of Romania."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_17",	
+	"Through shrewd political manoeuvring, Romania greatly benefited from WWI. Despite Romania having formed a secret alliance with Austria-Hungary in 1883, it began WWI with neutrality. In 1916, the government under Ion Brătianu declared war on Austria-Hungary. Its objective was to seize Transylvania from Austria-Hungary."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_18",	
+	"The defeat of Austria-Hungary in 1918 paved the way for the formation of modern Romania. Bessarabia, the area east of the Prut River which had been part of Moldavia until 1812 when it was taken by the Russians, was joined to Romania. Likewise, Bucovina, which had been in Austro-Hungarian hands since 1775, was also reunited with Romania. Part of the Austrian-Hungarian Banat, which had been incorporated in Romania, was also handed over. Furthermore, Transylvania was finally united with Romania. Hence, at the end of WWI, Romania – now known as Greater Romania – more than doubled its territory (from 120, 000 to 295, 000 sq km) and its population (from 7.5 to 16 million). The acquisition of this new territory was ratified by the Triple Entente powers in 1920 under the Treaty of Trianon."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_19",	
+	"In the years leading up to WWII, Romania, under the able guidance of foreign minister Nicolae Titulescu, sought security in an alliance with France and Britain, and joined Yugoslavia and Czechoslovakia in the Little Entente. Romania also signed a Balkan Pact with Yugoslavia, Turkey and Greece, and later established diplomatic relations with the USSR. These efforts were weakened by the Western powers’ appeasement of Hitler and by Romania’s own King Carol II."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_20",	
+	"Carol II succeeded his father Ferdinand I to the throne. Extreme right-wing parties opposed to a democratic regime emerged, notably the anti-Semitic League of the National Christian Defence, which consequently gave birth to the Legion of the Archangel Michael in 1927. This notorious breakaway faction, better known as the fascist Iron Guard, was led by Corneliu Codreanu and by 1935 dominated the political scene. Finding himself unable to manipulate the political parties, Carol II declared a royal dictatorship in February 1938. All political parties were dissolved and laws were passed to halve the size of the electorate. Between 1939 and 1940 alone, Romania had no less than nine different governments."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_21",	
+	"In 1939 Carol II clamped down on the anti-Semitic Iron Guard, which until 1937 he had supported. Codreanu and 13 other legionaries were arrested, sentenced to 10 years’ imprisonment, and then assassinated. In revenge for their leader’s death, Iron Guard members murdered Carol II’s prime minister, Armand Călinescu, leading to the butchering of 252 Iron Guard members by Carol II’s forces. In accordance with the king’s wishes, the corpses were strung up in public squares. Only with the collapse of the Axis powers at the end of WWII did the Iron Guard disintegrate (in 1999, Codreanu’s nephew Nicador Zelea Codreanu tried unsuccessfully to revive the reviled group)."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_22",	
+	"Romania was isolated after the fall of France in May 1940, and in June 1940 Greater Romania collapsed in accordance with the Molotov-Ribbentrop Pact. The USSR re-occupied Bessarabia. On 30 August 1940 Romania was forced to cede northern Transylvania to Hungary by order of Nazi Germany and fascist Italy. In September 1940, Southern Dobrogea was given to Bulgaria."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_23",	
+	"Not surprisingly, the loss of territories sparked widespread popular demonstrations. Even Carol II realised he could not quash the increasing mass hysteria and on the advice of one of his councillors, the king called in General Marshall Ion Antonescu. To defend the interests of the ruling classes, Antonescu forced King Carol II to abdicate in favour of the king’s 19-year-old son Michael. Antonescu then imposed a fascist dictatorship, with himself as conducător (supreme leader)."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_24",	
+	"German troops were allowed to enter Romania in October 1940, and in June 1941 Antonescu joined Hitler’s anti-Soviet war. One of Antonescu’s aims in joining forces with Hitler was to recover Bessarabia and this was achieved in August 1941. The results of this Romanian-Nazi alliance were gruesome, with over 200, 000 Romanian Jews – mainly from newly regained Bessarabia –and 40, 000 Roma deported to transit camps in Transdniestr and murdered in Auschwitz. After the war, Antonescu was turned over to the Soviet authorities who condemned him to death in a show trial. Bessarabia fell back into Soviet hands."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_25",	
+	"As the war went badly and the Soviet army approached Romania’s borders, a rare national consensus was achieved. On 23 August 1944 an opportunistic Romania suddenly changed sides again, capturing the 53, 159 German soldiers who were stationed in Romania at the time, and declared war on Nazi Germany. By this dramatic act, Romania salvaged its independence and shortened the war. By 25 October, the Romanian and Soviet armies had driven the Hungarian and German forces from Transylvania, replacing the valued territory back under Romanian control. The costs, however, were appalling: 500, 000 Romanian soldiers died fighting for the Axis powers, and another 170, 000 died after Romania joined the Allies."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_26",	
+	"Of all the countries that burst forward into the mass-industrialised, communist experiment in the 20th century, Romania and Russia were the most ill-prepared, both being overwhelmingly rural, agricultural countries. Prior to 1945, Romania’s Communist Party had no more than 1000 members. Its postwar ascendancy, which saw membership soar to 710,000 by 1947, was a consequence of backing from Moscow. The Soviet-engineered return of Transylvania greatly enhanced the prestige of the left-wing parties, which won the parliamentary elections in November 1946. A year later Prime Minister Petru Groza forced King Michael to abdicate (allegedly by holding the queen mother at gunpoint), the monarchy was abolished, and a Romanian People’s Republic proclaimed."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_27",	
+	"A period of terror ensued in which all the prewar leaders, prominent intellectuals and suspected dissidents were imprisoned or interned in hard-labour camps. The most notorious prisons were in Piteşti, Gherla, Sighetu Marmaţiei and Aiud. Factories and businesses were nationalised, and in 1953 a new Slavicised orthography was introduced to obliterate all Latin roots of the Romanian language, while street and town names were changed to honour Soviet figures. Braşov was renamed Oraşul Stalin."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_28",	
+	"Romania’s loyalty to Moscow continued only until the late 1950s. Soviet troops were withdrawn from Romania in 1958, and street and town names were changed once more to emphasise the country’s Roman heritage. After 1960 Romania adopted an independent foreign policy under two ‘national’ communist leaders, Gheorghe Gheorghiu-Dej (leader from 1952 to 1965) and his protégé Nicolae Ceauşescu (from 1965 to 1989), both of whom had been imprisoned during WWII. Under these figures the concept of a great Romanian socialist state was flaunted."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_29",	
+	"Romania never broke completely with the USSR, but Ceauşescu refused to assist the Soviets in their 1968 ‘intervention’ in Czechoslovakia. His public condemnation of it earned him praise and economic aid from the West. In 1975 Romania was granted ‘most favoured nation’ status by the USA, which yielded more than US$1 billion in US-backed credits in the decade that followed. And when Romania condemned the Soviet invasion in Afghanistan and participated in the 1984 Los Angeles Olympic Games despite a Soviet-bloc boycott, Ceauşescu was officially decorated by Great Britain’s Queen Elizabeth II."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_30",	
+	"Meanwhile, Romanians suffered painfully during the 25-year dictatorship of Nicolae Ceauşescu and his family. Thousands were imprisoned or repressed by the much-feared secret police (Securitate), huge amounts of money were squandered on megalomaniacal, grandiose projects and the population lived in abject poverty."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_31",	
+	"In late 1989, as the world watched the collapse of one communist regime after another, it seemed only a matter of time before Romania’s turn would come. The Romanian revolution was carried out with Latin passion and intensity, and of all the Soviet Bloc countries, only Romania’s government transfer ended with a dead leader."),
+	("en_US",	"LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_CVS_ROMANIA_CHAPTER_HISTORY_PARA_32",	
+	"Summise to say, a marked history of emergencies has proven that it takes but a spark to ignite an unbridled fervour in Romania's people, rising up time and time again to defend themselves to heed the call of: 'Awaken, Romanian'."),
+	
+	("en_US",	"LOC_PEDIA_BUILDINGS_PAGE_BUILDING_CVS_ROMANIA_UI_CHAPTER_HISTORY_PARA_1",	
+	"Declared historic monuments by the Romanian Culture Ministry to mark Romanian heritage, Fortăreață (meaning 'Fortress') can be found almost everywhere in Romania in one form or another; with as many as 28 in a single county. Some of the more well-known castles are surrounded by breathtaking landscapes and legendary myths of the people that occupied them. In the Transylvania region, many Fortăreață serve as churches that were established by Saxons between the 13th and 16th centuries, but the majority of these fortresses today serve as some of Romania's finest museums dedicated to the country's or region's storied history. "),
+
+	("en_US",	"LOC_PEDIA_UNITS_PAGE_UNIT_CVS_ROMANIA_UU_CHAPTER_HISTORY_PARA_1",  	
+	"The Vânători de Munte ('Mountain Huntsmen') are the elite mountain troops of the Romanian Land Forces, first established as an independent army corps in 1916 during World War I. They continued to serve during World War II on the Eastern Front in some of the harshest battles, including the sieges of Sevastopol and Stalingrad where their performance lived up to their reputation. Virtually all of their commanders from brigade level and up received the Knight's Cross of the Iron Cross. The greatest single achievement of the Vânători de Munte was the capture of Nalchik on 2 November 1942, the farthest point of Axis advance into the Caucasus. At the end of the war, one of the first measures taken by the Soviets in occupied Romania was to disband the mountain troops. However, shortly after Soviet occupation ended, the Vânători de Munte we re-established as a distinct branch of the Romanian Land Forces where they continue to operate to this day."	),
 
 -----------------------------------------------
--- Diplos | Kudos & Warnings
------------------------------------------------	
-	
-	-- AI Kudos (ANY)
-	("en_US",	"LOC_DIPLO_KUDO_EXIT_LEADER_CVS_VLAD_III_ANY",
-	"I always have respect for those familiar with scorched earth tactics, so long as that earth does not belong to me."	),
-	("pt_BR",	"LOC_DIPLO_KUDO_EXIT_LEADER_CVS_VLAD_III_ANY",
-	"Eu sempre tenho respeito por aqueles familiarizados com a técnica de terra arrasada, contando que essa terra não seja minha."	),
-	
-	-- AI Warnings (ANY)
-	("en_US",	"LOC_DIPLO_WARNING_EXIT_LEADER_CVS_VLAD_III_ANY",
-	"So few troops with which to defend yourselves. I see weakness in your rule."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_EXIT_LEADER_CVS_VLAD_III_ANY",
-	"Tão poucas tropas com as quais você se defende. Eu vejo fraqueza no seu reinado."	),
-
+-- Mod Support (Rule with Faith)
 -----------------------------------------------
--- Diplos | Troops Near Border
------------------------------------------------	
-	
-	-- AI warns player for border troops (HAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_VLAD_III_HAPPY",
-	"The presence of your army at my borders is sowing rumours of war among my people. Remove them at once, before my hands are forced."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_VLAD_III_HAPPY",
-	"A presença do seu exército nas minhas fronteiras está criando rumores de guerra entre meu povo. Remova-os de uma vez, antes que minhas mãos te forcem."	),
 
-	-- AI warns player for border troops (UNHAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_VLAD_III_UNHAPPY",
-	"You do not intimidate me with such displays of aggression at my border. Move them now, or I shall move them for you."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Você não me intimida com tal demonstração de agressão na minha fronteira. Mova eles agora, ou farei isso por você."	),
-	
-	-- AI accepts player's warning for border troops warning (HAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_HAPPY",
-	"My apologies. It is merely a series of military exercises, for Wallachia will not remain undefended. I will let the generals know that they should move along."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_HAPPY",
-	"MMinhas desculpas. Isso é apenas uma série de exercícios militares, para que Valáquioa não fique desprotegida. Informarei aos generais que eles devem seguir caminho."	),
-	
-	-- AI accepts player's warning for border troops warning (UNHAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_UNHAPPY",
-	"My military acts in the interests of my nation. I shall remove them, but know that we do not take to your meddling lightly."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Meu exércio age pelo interesse da minha nação. Irei movê-los, mas saiba que não levarei essa intromissão tranquilamente."	),
-	
-	-- AI rejects player's warning for border troops warning (ANY) ~ DECLARES WAR
-	("en_US",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CVS_VLAD_III_ANY",
-	"Their positioning is no coincidence, for I intend to take your lands, and with them your head."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CVS_VLAD_III_ANY",
-	"O posicionamento deles não é coincidência, com isso irei tomar suas terras, e junto com elas a sua cabeça."	),
+	("en_US",	"LOC_CIVILIZATION_CVS_ROMANIA_DESCRIPTION_JFD_CIVILIZATION",					"Romanian Empire"			),
+	("en_US",	"LOC_GOVERNMENT_JFD_EMPIRE_LEADER_TITLE_CVS_ROMANIA",							"Impărat"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_EMPIRE_LEADER_TITLE_CVS_ROMANIA_FEMININE",					"Impărăteasă"				),
 
------------------------------------------------
--- Diplos | Settling Too Close
------------------------------------------------	
-	
-	-- AI warns player for settling too close (HAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_CVS_VLAD_III_HAPPY",
-	"You have settled too close to my people's lands. Refrain from doing this again.."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_CVS_VLAD_III_HAPPY",
-	"Você colonizou muito perto da terra de meu povo. Evite fazer isso novamente..."	),
-	
-	-- AI warns player for settling too close (UNHAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_CVS_VLAD_III_UNHAPPY",
-	"The lands you just claimed belong to Wallachia. Insolence will not be tolerated."	),
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_CVS_VLAD_III_UNHAPPY",
-	"As terras que você acabou de tomar posse pertecem à Valáquia. Insolência não será tolerada."	),
-	
-	-- Positive AI response to human request (HAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_HAPPY",
-	"I was unaware that you laid claim to such lands. Rest assured, I shall find other, better lands to build upon elsewhere."	),
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_HAPPY",
-	"Eu desconhecia suas posses de terra aqui. Te garanto, encontrarei outras melhores terras para construir sobre."	),
-	
-	-- Positive AI response to human request (UNHAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Oh? This land is yours? My apologies, I mistook it for barbarian territory. But if you insist, then I shall settle elsewhere next time."	),
-	
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Oh? Essas terras são suas? Minhas desculpas, eu confundi com território bárbaro. Mas se insiste, então devo assentar em outro lugar na próxima."	),
-	
-	-- Negative AI response to human request (HAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CVS_VLAD_III_HAPPY",
-	"There is no need to be hasty, we are able to peacefully coexist in close proximity."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CVS_VLAD_III_HAPPY",
-	"Não há necessidade de ser apressado, nós somos capases de coexistir pacificamente tão próximos."	),
-	
-	-- Negative AI response to human request (UNHAPPY)
-	("en_US",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CVS_VLAD_III_UNHAPPY",
-	"If you want this land, come and take it.."	),
-	("pt_BR",	"LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Se você quer essa terra, venha pegar..."	),
-	
------------------------------------------------
--- Diplos | Trade
------------------------------------------------	
+	("en_US",	"LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_ROMANIA",							"Şef"						),
+	("en_US",	"LOC_GOVERNMENT_JFD_CHIEFDOM_LEADER_TITLE_CVS_ROMANIA_FEMININE",				"Şef"						),
+	("en_US",	"LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_ROMANIA",							"Conducător"				),
+	("en_US",	"LOC_GOVERNMENT_JFD_HORDE_LEADER_TITLE_CVS_ROMANIA_FEMININE",					"Conducător"				),
+	("en_US",	"LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_ROMANIA",							"Stăpân"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_POLIS_LEADER_TITLE_CVS_ROMANIA_FEMININE",					"Stăpân"					),
 
-	-- AI Accepts Deal (HAPPY)
-	("en_US",	"LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_HAPPY",
-	"Very well."	),
-	("pt_BR",	"LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_HAPPY",
-	"Muito bem."	),
-	
-	
-	-- AI Accepts Deal (Unhappy)
-	("en_US",	"LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_UNHAPPY",
-	"This will have to suffice."	),
-	("pt_BR",	"LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_UNHAPPY",
-	"Isso tem que ser suficiente."	),
+	("en_US",	"LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_ROMANIA",						"Stăpân"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_AUTOCRACY_LEADER_TITLE_CVS_ROMANIA_FEMININE",				"Stăpân"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_ROMANIA",						"Om de stat"				),
+	("en_US",	"LOC_GOVERNMENT_JFD_OLIGARCHY_LEADER_TITLE_CVS_ROMANIA_FEMININE",				"Femeie de stat"			),
+	("en_US",	"LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_ROMANIA",				"Purtător de cuvânt"		),
+	("en_US",	"LOC_GOVERNMENT_JFD_CLASSICAL_DEMOCRACY_LEADER_TITLE_CVS_ROMANIA_FEMININE",		"Purtător de cuvânt"		),
 
-	-- AI Rejects Deal (HAPPY)
-	("en_US",	"LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_HAPPY",
-	"You can do better than this."	),
-	("pt_BR",	"LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_HAPPY",
-	"Você consegue fazer melhor que isso."	),
-	
-	-- AI Rejects Deal (Unhappy)
-	("en_US",	"LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_UNHAPPY",
-	"The next words that leave your mouth had better be worth my time, or I shall cut out your tongue."	),
-	("pt_BR",	"LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CVS_VLAD_III_UNHAPPY",
-	"É melhor que as próximas palavras que sairem de sua boca façam valer meu tempo, ou haverei de cortar sua língua fora."	),
-
------------------------------------------------
--- Diplos | Denounce
------------------------------------------------	
-
-	-- Human denounce, AI responds
-	("en_US",	"LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"To openly declare yourself an enemy to the son of the dragon is not wise. Know that I shall spare no effort when seeking retribution."	),
-	("pt_BR",	"LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Declarar-se abertamente inimigo do filho do dragão não é sábio. Saiba que não polparei esforços ao retribuir."	),
-	
-	-- From AI
-	("en_US",	"LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"In your future I see a landscape of fire and death. I fear for your people. (Denounces You)"	),
-	("pt_BR",	"LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"No seu futuro eu vejo uma paisagem de fogo e morte. Eu temo pelo seu povo. (Denuncia você)"	),
-	
------------------------------------------------
--- Diplos | Declarations of War
------------------------------------------------	
-
-	-- Human Declares War, AI responds
-	("en_US",	"LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"May your gods offer you salvation, for you shall find none by my hand."	),
-	("pt_BR",	"LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"Que seus deuses te ofereçam salvação, pois não encontrará nenhuma em minha mão."	),
-	
-	-- AI Declares War
-	("en_US",	"LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"As my banners cross the escarpments of Wallachia to find you, your people will look toward their commanders for guidance and see hope... I'll take that from them first."	), 
-
------------------------------------------------
--- Diplos | Make Peace
------------------------------------------------	
-	
-	-- AI accepts from human
-	("en_US",	"LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CVS_VLAD_III_ANY",
-	"The terms are acceptable."	),
-	("pt_BR",	"LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CVS_VLAD_III_ANY",
-	"Os termos são aceitáveis."	),
-	
-	-- AI refuses human
-	("en_US",	"LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CVS_VLAD_III_ANY",
-	"The world is not big enough to hide from me."	),
-	("pt_Br",	"LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CVS_VLAD_III_ANY",
-	"O mundo não é grande o suficente para se esconder de mim."	),
-	
-	-- AI requests from human
-	("en_US",	"LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"No good will come from overextending. Let us put an end to this war."	),
-	("pt_BR",	"LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Nenhum bom virá d prolongamento. Vamos colocar um fim nesta guerra."	),
-
------------------------------------------------
--- Diplos | Defeat
------------------------------------------------	
-	
-	-- AI is Defeated
-	("en_US",	"LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"If you truly believe Wallachia and its people will ever be yours, then you are the greatest fool I have ever known. Mark my words - even if I should fall, the dragon lives on in its people and Wallachia will rise again!"	),
-	("pt_BR",	"LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_VLAD_III_ANY",
-	"Se você realmente acredita que a Valáquia e seu povo serão seus algum dia, então você é o maior tolo que já conheci. Grave minhas palavras - ainda que eu caia, o dragão continua vivendo no meu povo e Valáquia se erguerá novamente!"	),
-
-
-	-- Human is Defeated (will see this in hotseat)
-	("en_US",	"LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_VLAD_III_ANY}"	),
-	("pt_BR",	"LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CVS_VLAD_III_ANY",
-	"{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CVS_VLAD_III_ANY}"	),
-
---------------------------------------------------------------------
--- Quote and Pedia
---------------------------------------------------------------------
-
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_CVS_VLAD_III_QUOTE",
-	"It would be better that those who think of death should not follow me."  ),
-	("pt_BR",	"LOC_PEDIA_LEADERS_PAGE_CVS_VLAD_III_QUOTE",
-	"Seria melhor para aqueles que pensam na morte para que não me sigam."  ),
-	
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_CVS_VLAD_III_TITLE",
-	"Vlad Țepeș"),
-	
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_CVS_VLAD_III_SUBTITLE",
-	"Voivode of Wallachia"	),
-	("pt_BR",	"LOC_PEDIA_LEADERS_PAGE_CVS_VLAD_III_SUBTITLE",
-	"Voivode da Valáquia"	),
-	
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_CAPSULE_BODY",
-	"Vlad has the power to induce panic in the cities of his enemies on his quest for domination."),
-	("pt_Br",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_CAPSULE_BODY",
-	"Vlad tem o poder de induzir pânico nas cidades de seus inimigos em sua jornada pela dominação."),
-	
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_DETAILED_BODY",
-	"While Romania's bonuses lend themselves well to diplomatic victories and cultural progression, Vlad will instead look to exploit the war-based bonuses to conquer. With the ability to flip nearby cities upon capturing another, enemies of Vlad will soon find that they are fighting battles on multiple fronts when their cities revolt. Vlad will look to incite chaos wherever he goes, and nothing epitomises this more than his ability to scorch the earth and damage adjacent enemy units when he pillages a tile in enemy territory. With Romania's bonuses for participating in emergencies, Vlad will no doubt find himself the target of many, but Vlad has a strong weapon with his unique horse archer that may move after attacking with which to help him secure a victory, after which he will only become stronger."	),
-
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_1",
-	"Vlad the Impaler, in full Vlad III Dracula or Romanian Vlad III Drăculea, also called Vlad III or Romanian Vlad Țepeș, (born 1431, Sighișoara, Transylvania [now in Romania]—died 1476, north of present-day Bucharest, Romania), voivode (military governor, or prince) of Walachia (1448; 1456–1462; 1476) whose cruel methods of punishing his enemies gained notoriety in 15th-century Europe."),
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_2",
-	"Vlad was the second of four brothers born into the noble family of Vlad II Dracul. His sobriquet Dracula (meaning “son of Dracul”) was derived from the Latin draco (“dragon”) after his father’s induction into the Order of the Dragon, created by Holy Roman Emperor Sigismund for the defense of Christian Europe against the Ottoman Empire. Vlad moved to Târgoviște, Walachia, in 1436 when his father assumed leadership of the Walachian voivodate (principality). In 1442 Vlad and his younger brother were sent to the court of Ottoman Sultan Murad II as collateral to assure the sultan that their father, in a reversal of his previous position, would support Ottoman policies. Vlad returned in 1448, having been informed of the assassination of his father and older brother at the hands of Walachian boyars (nobles) the year before."),
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_3",
-	"Vlad then embarked upon the first of a lifelong series of campaigns to regain his father’s seat. His opponents included the boyars as well as his younger brother, who was supported by the Ottoman sultan. He emerged briefly victorious in 1448 but was deposed after only two months. After an eight-year struggle, Vlad again claimed the voivodate."),
-	("en_US",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_4",
-	"It was during this period of rule that he committed the atrocities for which he was best known. His penchant for impaling his enemies on stakes in the ground and leaving them to die earned him the name Vlad the Impaler (Romanian: Vlad Țepeș). He inflicted this type of torture on foreign and domestic enemies alike: notably, as he retreated from a battle in 1462, he left a field filled with thousands of impaled victims as a deterrent to pursuing Ottoman forces. That year he escaped Ottoman capture only to be intercepted by Hungarian forces and imprisoned by Matthias I of Hungary. Vlad regained his seat in 1476 but was killed in battle the same year. He remained a folk hero in the region for his efforts against Ottoman encroachment."),
-
-	("en_US",	"LOC_PEDIA_UNITS_PAGE_UNIT_CVS_VLAD_III_UU_CHAPTER_HISTORY_PARA_1",  	
-	"In the Middle Ages and early Renaissance, the Wallachians relied on light cavalry archers (Călăraşi) to deploy hit-and-run tactics. A core component of Vlad's army, Călăraşi were lightly armed missile troops typically used in skirmishes, capable of moving swiftly to avoid close combat or to deliver a rapid blow to the flanks or rear of its foe."	);
-
-	("pt_BR",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_1",
-	"Vlad o Impalador, completo Vlad III Dracula ou em romeno Vlad III Drăculea, também chamado Vlad III ou romeno Vlad Țepeș, (nascido em 1431, Sighișoara, Transilvânia [agora na Romania]—falecido 1476, norte da atual Bucareste, Romênia), voivode (governante militar, ou príncipe) da Valáquia (1448; 1456–1462; 1476) cujos métodos cruéis de punir seus inimigos ganharam notoriedade na Europa do século XV."),
-	("pt_BR",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_2",
-	"Vlad era o segundo de quatro filhos nascidos na nobre família de Vlad II Dracul. Seu apelido Dracula (“filho de Dracul”) é derivado do latim draco (“dragão”) após a indução de seu pai na Ordem do Dragão, criado pelo Sacro Imperador Sigismundo para defesa da Europa Cristã contra o Império Otomano. Vlad se mudou para Târgoviște, Valáquia, em 1436 quando seu pai assumiu liderança do voivodato da Valáquia (principado). Em 1442 Vlad e seu irmão mais novo foram mandados para a corte do Sultão Otomano Murad II como colaterais para garantir ao sultão que seu pai, ao contrário de sua última posição, apoiaria políticas otomanas. Vlad retornou em 1448, sendo informado sobre o assassinado de seus pai e irmão mais velho pelas mãos dos boiardos valáquios (nobres) no ano anterior."),
-	("pt_BR",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_3",
-	"Vlad então embarcou na primeira de uma séria de campanhas ao longo de sua vida para retomar o trono que era de seu pai. Seus oponentes incluiam os boiares e até seu irmão mais novo, que recebeu apoio do sultão Otomano. Ele saiu vitorioso brevemente em 1448 mas foi desposto depois de apenas dois meses. Depois de oito anos de luta, Vlad novamente se apossou do voivodato."),
-	("pt_BR",	"LOC_PEDIA_LEADERS_PAGE_LEADER_CVS_VLAD_III_CHAPTER_HISTORY_PARA_4",
-	"Foi durante esse perío do seu reinado que ele cometeu as atrocidades que melhor o representam. Seu prazer por impalar inimigos em estacas no chão e deixá-los para morrer lhe renderam o nome de Vlad o Impalador (romeno: Vlad Țepeș). Ele infligia esse tipo de tortura em inimigos de dentro e de fora: notoriamente, enquanto recuava de uma batalha em 1462, ele deixou um campo com milhares de vítimas impaladas como prevensão contra os perseguidores Otomados. Naquele ano ele escapou dis Otomanas mas foi capturado pelas forças Húngaras e feito prisioneiro por Matias I da Hungria. Vlad recuperou seu trono em 1476 mas morreu em batalha no mesmo ano. Ele continuou como herói popular na região pelos esforços contra a invasão Otomana."),
-
-	("pt_BR",	"LOC_PEDIA_UNITS_PAGE_UNIT_CVS_VLAD_III_UU_CHAPTER_HISTORY_PARA_1",  	
-	"Na Idade Média e começo da Renascença, os Valáquios confiavam nos arqueiros de cavalaria leve (Călăraşi) para uso da técnica bater-e-correr. Componente fundamento no exército de Vlad, Călăraşi eram tropas levas e rápidas tipicamente usadas em conflitos (escaramuças), capazes de se moverem facilmente para evitar combate corporal ou para rápidos golpes no flanco ou laterais de seu adversário."	);
-
+	("en_US",	"LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_ROMANIA",							"Reprezentant"				),
+	("en_US",	"LOC_GOVERNMENT_JFD_REPUBLIC_LEADER_TITLE_CVS_ROMANIA_FEMININE",				"Reprezentant"				),
+	("en_US",	"LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_ROMANIA",							"Voivode"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_MONARCHY_LEADER_TITLE_CVS_ROMANIA_FEMININE",				"Voivode"					),
+	("en_US",	"LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_ROMANIA",				"Președintele"				),
+	("en_US",	"LOC_GOVERNMENT_JFD_LIBERAL_DEMOCRACY_LEADER_TITLE_CVS_ROMANIA_FEMININE",		"Președintele"				);
